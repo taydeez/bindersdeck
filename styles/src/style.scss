@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
 
 h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+}
+
+body{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -9,10 +13,22 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     background-color: #691dcd;
     border-color: #691dcd;
+
+    &:hover {
+        color: #fff;
+        background-color: #691dcd;
+        border-color: #691dcd;
+    }
+
+
 }
 
 img{
     max-width: 100%;
+}
+
+.main-header{
+    margin-top: -10%;
 }
 
 .landing{
@@ -45,6 +61,7 @@ img{
     border-top-right-radius: .25rem;
     color: #000;
     font-size: 20px;
+    transition: linear 1s;
 
 }
 
@@ -54,17 +71,27 @@ img{
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
     color: #000;
+    transition: linear 0.2s;
+
 
     &:hover{
         border: none !important;
         border-bottom: 4px solid #691dcd !important;
         border-bottom-style: outset;
         font-weight: bold;
+        transition: linear 0.2s;
+
     }
 }
 
 .nav-tabs {
     border-bottom: 2px solid #6965c7;
+}
+
+.swatch{
+    transition: linear 0.2s;
+    height: 50px;
+    width: 50px ; 
 }
 
 .divider{
@@ -83,3 +110,6 @@ footer{
 .row.no-margin{
     margin:0 ! important;
     }
+
+
+ 

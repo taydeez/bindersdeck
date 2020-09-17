@@ -1,75 +1,98 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\000034}}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\000033}}
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  font-style: bold; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\000038}}
+body {
+  font-family: 'Poppins', sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000312}}
 .btn-primary {
   color: #fff;
   background-color: #691dcd;
   border-color: #691dcd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000317}}
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #691dcd;
+    border-color: #691dcd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000326}}
 img {
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000330}}
+.main-header {
+  margin-top: -10%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000335}}
 .landing img {
   max-width: 90%;
   margin: 0px auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000341}}
 .nav-link {
   color: #000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000343}}
   .nav-link:hover {
     color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000348}}
 #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   border: none !important;
   border-bottom: 4px solid #691dcd !important;
   border-bottom-style: outset; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000357}}
 #tabs .nav-tabs .nav-link {
   border: none !important;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
   color: #000;
-  font-size: 20px; }
+  font-size: 20px;
+  transition: linear 1s; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000369}}
 .nav-tabs .nav-link {
   border: none;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
-  color: #000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000358}}
+  color: #000;
+  transition: linear 0.2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000377}}
   .nav-tabs .nav-link:hover {
     border: none !important;
     border-bottom: 4px solid #691dcd !important;
     border-bottom-style: outset;
-    font-weight: bold; }
+    font-weight: bold;
+    transition: linear 0.2s; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000387}}
 .nav-tabs {
   border-bottom: 2px solid #6965c7; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000391}}
+.swatch {
+  transition: linear 0.2s;
+  height: 50px;
+  width: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000397}}
 .divider {
   width: 10%;
   border: 3px solid #691dcd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\00003102}}
 footer {
   background-color: #0B0A1B;
   color: whitesmoke; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\00003105}}
   footer i {
     color: #27FFAE; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/eyobassey\/Documents\/projects\/binderdeck\/styles\/src\/style\.scss}line{font-family:\00003110}}
 .row.no-margin {
   margin: 0 !important; }
 
